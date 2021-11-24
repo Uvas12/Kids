@@ -1,0 +1,16 @@
+{
+	"name": "Kids",
+	"author": "La pluma azul",
+	"version": "3.0",
+	"description": "Añade una fuente de letra que llama la atención el texto a los niños y adolescentes.",
+	"manifest_version": 2,
+	"Hooks": {
+		"ParserFirstCallInit": [
+		        "Sky::onParserFirstCallInit"
+		]
+	},
+	"AutoloadClasses": {
+		"Sky": "Kids.hooks.php"
+	},
+	"type": "parserhook"
+}
